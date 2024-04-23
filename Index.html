@@ -39,7 +39,12 @@
                 <li><a href="">Conact</a></li>
             </ul>
         </nav>
-        
+        <footer>
+            <p>NuruSlum&copy;
+                <span id="year"></span>
+            </p>
+    
+        </footer>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
@@ -63,6 +68,11 @@
         
 
     </script>
+    <script>
+        const year = document.getElementById("year");
+        year.textContent = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>
 

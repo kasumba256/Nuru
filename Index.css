@@ -7,6 +7,7 @@
 }
 body
 {
+    overflow: hidden;
     font-family: "Poppins", sans-serif;
 }
 
@@ -110,6 +111,20 @@ nav a:hover
 {
     font-size: 25px;
     display: none;
+}
+footer
+{
+    background-color:#11100fee;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    /* how to make a footer stick to the bottom*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
 }
 @media screen and (max-width:600px)
 {
