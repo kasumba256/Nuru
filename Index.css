@@ -17,8 +17,6 @@ body
     background-image: url("./Assets/Images/landing.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 /*
@@ -57,7 +55,6 @@ a, a:hover
     color: burlywood;
 }
 */
-
 
 
 
@@ -112,9 +109,10 @@ nav a:hover
     font-size: 25px;
     display: none;
 }
+
 footer
 {
-    background-color:#11100fee;
+    background-color:#11100fef;
     padding: 5px;
     text-align: center;
     color: #fff;
@@ -125,6 +123,39 @@ footer
     width: 100%;
 
 
+}
+.main
+{
+    background-color:#11100fd8;
+    height: 882px; 
+    width: 100%;
+    /*border: 2px solid green;*/
+    align-items: center;
+    margin-top: -42px;
+}
+.main h1
+{
+    color: #fff;
+    text-align: left;
+    padding: 300px 120px;
+    font-weight: bolder;
+    font-size: 50px;
+    
+
+}
+.main p
+{
+    color: #fff;
+    margin-top: -330px;
+    margin-left: 120px;
+    font-size: 15px;
+}
+.btn 
+{
+    margin-top: 10px;
+    margin-left: 120px;
+    padding: 10px 10px;
+    font-weight: 600;
 }
 @media screen and (max-width:600px)
 {
