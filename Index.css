@@ -63,6 +63,7 @@ nav
     background-color:#11100fee;
     padding: 5px 20px;
     display: flex;
+
     align-items: center;
 }
 nav a
