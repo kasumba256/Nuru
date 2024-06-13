@@ -80,6 +80,7 @@ nav a:hover
     font-weight: bolder;
     font-size: 40px;
     letter-spacing: 0.20cm;
+    color: #fff;
 }
 .per
 {
@@ -87,6 +88,60 @@ nav a:hover
     width: 100%;
     height:75%;
 }
+body
+{
+    background-color:#11100fee;
+}
+
+.cards
+{
+    border: 1px solid yellow;
+    width: 100%;
+    margin-top: -600px;
+}
+/*
+main
+{
+    margin-top: -710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 70vh;
+}
+main .per
+{
+  border: 1px solid white;
+  max-width: 350px;
+  height: 100%;
+  padding: 20px;
+
+}
+
+.per img
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: -20px;
+    
+}
+*/
+
+/* add more about images */
+/*
+.per img::after
+{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom:0px ;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+}
+*/
 
 footer
 {
