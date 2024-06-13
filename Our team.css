@@ -91,13 +91,124 @@ nav a:hover
 body
 {
     background-color:#11100fee;
+
 }
 
+
+/*
+:root
+    {
+        --bg1:#f65e00;
+        --bg2:#0cc0df;
+        --bg3:#5271ff;
+    }
+*/
 .cards
 {
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
+    width: 92%;
+    margin-top: -780px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60dvh;
+    background-color: #222327;
+    font-family: poppins, sans-serif;
+    padding: 30px;
+    
+    
+}
+/*
+.cards
+{
+    display: grid;
+    gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+    */
+
+.card
+{
+    background-color: white;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 12px;
+    transition: height 0.3s ease-in-out;
+    margin-top:80px;
+}
+
+
+.image-holder
+{
+  /*border: 1px solid black;*/
+  box-shadow: 1px 1px 20px blueviolet;
+}
+.image-holder img
+{
+    width: 280px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card .image-holder
+{
     width: 100%;
-    margin-top: -600px;
+    height: 400px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.card:nth-child(1) .image-holder
+{
+    background-color: var(--bg1);
+}
+.card:nth-child(2) .image-holder
+{
+    background-color: var(--bg1);
+}
+.card:nth-child(3) .image-holder
+{
+    background-color: var(--bg1);
+}
+.card h2, .card p
+{
+    margin-bottom: 10px;
+}
+.card p
+{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.card-content
+{
+    height: 30px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card:hover .image-holder
+{
+    transform: scale(0.9);
+    margin-top: -90px;
+}
+.card:hover .card-content
+{
+    height: 150px;
+    overflow: visible;
+}
+.card:hover p
+{
+    opacity: 1;
 }
 /*
 main
